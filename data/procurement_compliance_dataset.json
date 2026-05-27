@@ -1,0 +1,262 @@
+[
+  {
+    "inputs": {
+      "question": "What is the supplier's maximum liability cap under the contract?",
+      "context": "Section 12.3 — Limitation of Liability: The total aggregate liability of Supplier to Buyer under or in connection with this Agreement, whether in contract, tort (including negligence), breach of statutory duty or otherwise, shall not exceed the total Fees paid or payable by Buyer in the twelve (12) months immediately preceding the event giving rise to the claim."
+    },
+    "outputs": {
+      "answer": "The supplier's maximum liability is capped at the total fees paid by the buyer in the 12 months before the event giving rise to the claim."
+    },
+    "metadata": {
+      "category": "risk",
+      "difficulty": "easy"
+    }
+  },
+  {
+    "inputs": {
+      "question": "Does the contract allow the supplier to subcontract without buyer approval?",
+      "context": "Section 8.1 — Subcontracting: Supplier shall not subcontract any part of the Services without the prior written consent of Buyer, such consent not to be unreasonably withheld or delayed. Any approved subcontractor shall be bound by obligations no less onerous than those in this Agreement."
+    },
+    "outputs": {
+      "answer": "No. The supplier must obtain prior written consent from the buyer before subcontracting any part of the services."
+    },
+    "metadata": {
+      "category": "risk",
+      "difficulty": "easy"
+    }
+  },
+  {
+    "inputs": {
+      "question": "What happens if the supplier fails to meet the SLA uptime target?",
+      "context": "Schedule 3 — SLA: Supplier shall maintain 99.5% monthly uptime. For each full percentage point below 99.5%, Buyer shall receive a service credit equal to 5% of the monthly fee for that service, up to a maximum credit of 25% of the monthly fee. Credits are the sole remedy for SLA breaches."
+    },
+    "outputs": {
+      "answer": "For each full percentage point below the 99.5% target, the buyer receives a service credit of 5% of the monthly fee, capped at 25%. Credits are the exclusive remedy for SLA failures."
+    },
+    "metadata": {
+      "category": "risk",
+      "difficulty": "medium"
+    }
+  },
+  {
+    "inputs": {
+      "question": "Is the supplier required to maintain cyber insurance?",
+      "context": "Section 15 — Insurance: Supplier shall, at its own cost, maintain throughout the Term: (a) commercial general liability insurance with a limit of no less than EUR 2,000,000 per occurrence; (b) cyber liability and data breach insurance with a minimum limit of EUR 5,000,000 per claim; (c) professional indemnity insurance with a minimum limit of EUR 3,000,000 per claim. Certificates of insurance shall be provided to Buyer upon request."
+    },
+    "outputs": {
+      "answer": "Yes. The supplier must maintain cyber liability and data breach insurance with a minimum limit of EUR 5,000,000 per claim for the full contract term."
+    },
+    "metadata": {
+      "category": "risk",
+      "difficulty": "medium"
+    }
+  },
+  {
+    "inputs": {
+      "question": "Is the supplier required to comply with anti-bribery laws?",
+      "context": "Section 19 — Anti-Bribery and Corruption: Supplier shall comply with all applicable anti-bribery and anti-corruption laws and regulations, including the UK Bribery Act 2010 and the US Foreign Corrupt Practices Act, and shall not offer, pay, or receive any bribe, kickback, or improper payment in connection with this Agreement. Breach of this clause is a material breach entitling Buyer to terminate immediately."
+    },
+    "outputs": {
+      "answer": "Yes. The supplier must comply with anti-bribery laws including the UK Bribery Act 2010 and US FCPA. A breach is treated as a material breach allowing immediate termination."
+    },
+    "metadata": {
+      "category": "compliance",
+      "difficulty": "easy"
+    }
+  },
+  {
+    "inputs": {
+      "question": "What audit rights does the buyer have over the supplier?",
+      "context": "Section 20 — Audit Rights: Buyer (or its appointed third-party auditor) shall have the right, on 10 Business Days' written notice, to audit Supplier's books, records, systems, and facilities relevant to the Services and this Agreement, no more than once per calendar year unless a material breach is reasonably suspected. Supplier shall provide reasonable cooperation and access."
+    },
+    "outputs": {
+      "answer": "The buyer can audit the supplier's records, systems, and facilities once per year with 10 business days' notice, or more frequently if a material breach is suspected. The supplier must cooperate."
+    },
+    "metadata": {
+      "category": "compliance",
+      "difficulty": "medium"
+    }
+  },
+  {
+    "inputs": {
+      "question": "Is the supplier obligated to report ethical violations in its supply chain?",
+      "context": "Supplier Code of Conduct, Clause 7 — Supply Chain Transparency: Supplier shall conduct reasonable due diligence on its own sub-suppliers and shall promptly notify Buyer of any identified or suspected violations of human rights, forced labour, child labour, or environmental regulations within its supply chain. Notification must occur within five (5) Business Days of Supplier becoming aware of the violation."
+    },
+    "outputs": {
+      "answer": "Yes. The supplier must notify the buyer within 5 business days of becoming aware of human rights, forced/child labour, or environmental violations in its own supply chain."
+    },
+    "metadata": {
+      "category": "compliance",
+      "difficulty": "medium"
+    }
+  },
+  {
+    "inputs": {
+      "question": "What is the notice period required for contract termination for convenience?",
+      "context": "Section 22.2 — Termination for Convenience: Either party may terminate this Agreement without cause by providing the other party with not less than ninety (90) days' written notice. Upon expiry of such notice, Buyer shall pay all undisputed Fees for Services rendered up to the termination date."
+    },
+    "outputs": {
+      "answer": "Either party must provide 90 days' written notice to terminate the contract for convenience. The buyer must pay undisputed fees for services rendered up to the termination date."
+    },
+    "metadata": {
+      "category": "compliance",
+      "difficulty": "easy"
+    }
+  },
+  {
+    "inputs": {
+      "question": "Is the supplier acting as a data processor or data controller under GDPR?",
+      "context": "Data Processing Agreement (DPA), Clause 2 — Roles: The parties acknowledge that for the purposes of the GDPR, Buyer is the Data Controller and Supplier is the Data Processor with respect to any Personal Data processed by Supplier in the course of providing the Services. Supplier shall process Personal Data only on documented instructions from Buyer."
+    },
+    "outputs": {
+      "answer": "The supplier is a Data Processor and the buyer is the Data Controller under GDPR. The supplier may only process personal data on documented instructions from the buyer."
+    },
+    "metadata": {
+      "category": "data-privacy",
+      "difficulty": "easy"
+    }
+  },
+  {
+    "inputs": {
+      "question": "Where is the supplier allowed to store and process personal data?",
+      "context": "DPA Clause 8 — Data Transfers: Supplier shall process and store all Personal Data exclusively within the European Economic Area (EEA), unless Buyer provides prior written consent for transfer to a third country. Any transfer outside the EEA must be governed by Standard Contractual Clauses (SCCs) approved by the European Commission."
+    },
+    "outputs": {
+      "answer": "Personal data must be stored and processed exclusively within the EEA. Transfers outside the EEA require buyer's prior written consent and must be covered by EU Standard Contractual Clauses."
+    },
+    "metadata": {
+      "category": "data-privacy",
+      "difficulty": "medium"
+    }
+  },
+  {
+    "inputs": {
+      "question": "How long can the supplier retain personal data after contract termination?",
+      "context": "DPA Clause 11 — Retention and Deletion: Upon termination or expiry of the Agreement, Supplier shall, at Buyer's choice, delete or return all Personal Data within thirty (30) days. Supplier may retain Personal Data for a further period only where required to do so by applicable law, in which case Supplier shall inform Buyer of such legal requirement prior to retention."
+    },
+    "outputs": {
+      "answer": "The supplier must delete or return all personal data within 30 days of contract termination. Longer retention is only permitted if required by law, and the supplier must inform the buyer in advance."
+    },
+    "metadata": {
+      "category": "data-privacy",
+      "difficulty": "medium"
+    }
+  },
+  {
+    "inputs": {
+      "question": "What must the supplier do if it experiences a personal data breach?",
+      "context": "DPA Clause 13 — Data Breach Notification: Supplier shall notify Buyer without undue delay and, where feasible, no later than twenty-four (24) hours after becoming aware of a Personal Data Breach. The notification shall include the nature of the breach, categories and approximate number of data subjects affected, likely consequences, and measures taken or proposed."
+    },
+    "outputs": {
+      "answer": "The supplier must notify the buyer within 24 hours of becoming aware of a data breach, including details of the breach's nature, affected data subjects, consequences, and remediation measures taken."
+    },
+    "metadata": {
+      "category": "data-privacy",
+      "difficulty": "hard"
+    }
+  },
+  {
+    "inputs": {
+      "question": "Can the supplier appoint sub-processors without the buyer's knowledge?",
+      "context": "DPA Clause 9 — Sub-processors: Supplier shall not engage any new sub-processor without giving Buyer at least 14 days' prior written notice. Buyer shall have the right to object to the new sub-processor within that period. If Buyer objects and the parties cannot resolve the disagreement, Buyer may terminate the Agreement without penalty."
+    },
+    "outputs": {
+      "answer": "No. The supplier must give the buyer at least 14 days' written notice before appointing a new sub-processor. The buyer can object, and if unresolved, may terminate without penalty."
+    },
+    "metadata": {
+      "category": "data-privacy",
+      "difficulty": "hard"
+    }
+  },
+  {
+    "inputs": {
+      "question": "What is the contract's governing law and jurisdiction?",
+      "context": "Section 26 — Governing Law: This Agreement and any dispute or claim arising out of or in connection with it shall be governed by and construed in accordance with the laws of England and Wales. Each party irrevocably submits to the exclusive jurisdiction of the courts of England and Wales."
+    },
+    "outputs": {
+      "answer": "The contract is governed by the laws of England and Wales. Any disputes are subject to the exclusive jurisdiction of English and Welsh courts."
+    },
+    "metadata": {
+      "category": "contractual",
+      "difficulty": "easy"
+    }
+  },
+  {
+    "inputs": {
+      "question": "Does the contract include an automatic renewal clause?",
+      "context": "Section 3.2 — Renewal: Unless either party provides written notice of non-renewal at least sixty (60) days before the end of the then-current Term, this Agreement shall automatically renew for successive one-year periods on the same terms and conditions, subject to any price adjustment per Section 6.4."
+    },
+    "outputs": {
+      "answer": "Yes. The contract auto-renews for successive one-year periods unless either party gives 60 days' written notice of non-renewal before the current term ends."
+    },
+    "metadata": {
+      "category": "contractual",
+      "difficulty": "medium"
+    }
+  },
+  {
+    "inputs": {
+      "question": "Can the supplier unilaterally change the pricing during the contract term?",
+      "context": "Section 6.4 — Price Adjustments: Supplier may increase Fees at the start of each renewal term by no more than the percentage change in the Consumer Price Index (CPI) for the preceding 12-month period, provided that Supplier gives Buyer not less than 90 days' written notice of any such increase prior to the renewal date."
+    },
+    "outputs": {
+      "answer": "The supplier can increase fees at renewal only, capped at the CPI increase for the prior 12 months, with 90 days' advance written notice. No mid-term price changes are permitted."
+    },
+    "metadata": {
+      "category": "contractual",
+      "difficulty": "hard"
+    }
+  },
+  {
+    "inputs": {
+      "question": "What intellectual property does the buyer own from work produced under the contract?",
+      "context": "Section 14 — Intellectual Property: All deliverables, reports, software, and other materials created specifically for Buyer under this Agreement ('Buyer Works') shall be works made for hire and the exclusive property of Buyer upon creation. Supplier hereby assigns all right, title, and interest in Buyer Works to Buyer. Supplier retains ownership of its pre-existing intellectual property ('Supplier Background IP')."
+    },
+    "outputs": {
+      "answer": "The buyer owns all deliverables and materials created specifically under the contract (works made for hire). The supplier retains its pre-existing background IP."
+    },
+    "metadata": {
+      "category": "contractual",
+      "difficulty": "medium"
+    }
+  },
+  {
+    "inputs": {
+      "question": "What are the payment terms under the contract?",
+      "context": "Section 6.1 — Payment Terms: Supplier shall issue invoices monthly in arrears. Buyer shall pay each undisputed invoice within thirty (30) days of receipt. Late payments shall accrue interest at the rate of 2% above the Bank of England base rate per annum, calculated daily from the due date until actual payment."
+    },
+    "outputs": {
+      "answer": "Invoices are issued monthly in arrears and must be paid within 30 days. Late payments accrue interest at 2% above the Bank of England base rate per annum."
+    },
+    "metadata": {
+      "category": "financial",
+      "difficulty": "easy"
+    }
+  },
+  {
+    "inputs": {
+      "question": "Is the buyer allowed to withhold payment for disputed invoices?",
+      "context": "Section 6.3 — Disputed Invoices: Buyer may withhold payment of any amount genuinely disputed in good faith, provided that Buyer: (a) pays all undisputed amounts by the due date; (b) notifies Supplier in writing of the disputed amount and reasons within 10 Business Days of receipt of the invoice; and (c) cooperates in good faith to resolve the dispute promptly."
+    },
+    "outputs": {
+      "answer": "Yes. The buyer may withhold genuinely disputed amounts if it pays undisputed amounts on time, notifies the supplier in writing within 10 business days, and cooperates to resolve the dispute."
+    },
+    "metadata": {
+      "category": "financial",
+      "difficulty": "medium"
+    }
+  },
+  {
+    "inputs": {
+      "question": "Does the contract include a most-favoured-nation (MFN) pricing clause?",
+      "context": "Section 6.5 — Most-Favoured Pricing: Supplier warrants that the Fees charged to Buyer are no greater than those charged to any other customer of Supplier for substantially similar services and volumes. If Supplier offers lower fees to another customer, Supplier shall immediately notify Buyer and apply equivalent pricing to Buyer's account."
+    },
+    "outputs": {
+      "answer": "Yes. The contract includes an MFN clause: if the supplier offers lower fees to any other customer for similar services, it must immediately apply those lower fees to the buyer."
+    },
+    "metadata": {
+      "category": "financial",
+      "difficulty": "hard"
+    }
+  }
+]
