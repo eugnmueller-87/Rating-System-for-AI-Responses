@@ -4,6 +4,13 @@
 **Ironhack AI Engineering Bootcamp · Week 6 · Lab 8**  
 **Author:** Eugen Mueller
 
+![LangSmith](https://img.shields.io/badge/LangSmith-1C3C3C?style=flat&logo=langchain&logoColor=white)
+![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat&logo=openai&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![openevals](https://img.shields.io/badge/openevals-FF6B35?style=flat)
+![GPT-4o](https://img.shields.io/badge/GPT--4o-412991?style=flat&logo=openai&logoColor=white)
+![GPT-4o-mini](https://img.shields.io/badge/GPT--4o--mini-412991?style=flat&logo=openai&logoColor=white)
+
 ---
 
 ## Domain
